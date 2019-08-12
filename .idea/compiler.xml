@@ -9,12 +9,14 @@
         <module name="demo" />
         <module name="democlient" />
         <module name="democonsume" />
+        <module name="test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo" target="1.8" />
       <module name="democlient" target="1.8" />
       <module name="democonsume" target="1.8" />
+      <module name="test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -22,6 +24,7 @@
       <module name="demo" options="-parameters" />
       <module name="democlient" options="-parameters" />
       <module name="democonsume" options="-parameters" />
+      <module name="test" options="-parameters" />
     </option>
   </component>
 </project>

@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/democlient/democlient.iml" filepath="$PROJECT_DIR$/democlient/democlient.iml" />
       <module fileurl="file://$PROJECT_DIR$/democonsume/democonsume.iml" filepath="$PROJECT_DIR$/democonsume/democonsume.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springCloud.iml" filepath="$PROJECT_DIR$/.idea/springCloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
     </modules>
   </component>
 </project>
