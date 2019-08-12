@@ -2,11 +2,10 @@ package com.test.demo.target;
 
 import java.lang.annotation.*;
 
-@Target({ElementType.METHOD,ElementType.TYPE})
+@Target({ElementType.TYPE,ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
-public @interface MyFirstAnnotation {
+public @interface UserAnnotation {
 
     String value() default "";
-
 }

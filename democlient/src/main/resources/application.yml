@@ -7,3 +7,11 @@ server:
 spring:
   application:
     name: service-hi
+  datasource:
+    url: jdbc:mysql://localhost:3306/dome?useUnicode=true&characterEncoding=utf8&useSSL=false&allowMultiQueries=true&serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.example.democlient.pojo
